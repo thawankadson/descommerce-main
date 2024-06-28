@@ -10,10 +10,6 @@ public class ProductDTO {
 	private Double price;
 	private String imgUrl;
 	
-	public ProductDTO() {
-		
-	}
-
 	public ProductDTO(Long id, String name, String description, Double price, String imgUrl) {
 		super();
 		this.id = id;
@@ -45,9 +41,5 @@ public class ProductDTO {
 	public String getImgUrl() {
 		return imgUrl;
 	}
-
-	
-
-	
 
 }
